@@ -75,4 +75,12 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     *Change the price of the ticket
+     */
+    public void setPrice(int newPrice)
+    {
+        price = newPrice;
+    }
 }
